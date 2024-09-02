@@ -14,137 +14,126 @@ body {
     .container {
         width: 100%;
         display: flex;
-    }
 
-    &__one {
-        width: 60%;
-        background-color: #7FACE1;
-        
-        .images_section {
-            margin-top: 282px;
-            margin-left: 42px;
+        .benechat__one {
+            width: 60%;
+            background-color: #7FACE1;
+            
+            // .images_section {
+            //     margin-top: 282px;
+            //     margin-left: 42px;
+            // }
 
-            .image_1 {
-
-            }
-
-            .group {
+    
+            .images_section__tickets_two {
+                margin-top: 198px;
+                margin-left: 123px;
                 position: relative;
-            }
-        }
 
-        .images_section__tickets {
-            margin-top: 198px;
-            margin-left: 123px;
-            position: relative;
-
-            width: 510px;
-            height: 356px;
-
-            .image_1 {
-                width: 100%; /* Картинка будет масштабироваться по ширине контейнера */
-                height: 100%; /* Картинка будет масштабироваться по высоте контейнера */
-            }
-
-            .group {
-                position: absolute;
-                top: 116px;
-                right: 123px;
+                width: 633px;
+                height: 472px;
 
                 img {
+                    position: absolute;
+                }
+
+                .image_1 {
+                    top: 116px;
+                    left: 123px;
+                    z-index: 10;
                 }
             }
-        }
-
-        h2 {
-            margin-top: 109px;
-            
-            text-align: center;
-            font-size: 64px;
-            font-weight: 600;
-            color: #F1F1F1;
-        }
-    }
-
-    &__two {
-        width: 40%;
-        background-color: #888D9EB5;
-
-        .description {
-
-            max-width: 500px;
-            margin-left: 85px;
-
-            &__title {
-                color: #D9E6F5;
-                font-size: 48px;
+    
+            h2 {
+                margin-top: 109px;
+                text-align: center;
                 
-                margin-top: 198px;
-            }
-
-            &__description {
-                margin-top: 30px;
+                font-size: 64px;
+                font-weight: 600;
+                color: #F1F1F1;
             }
         }
-
-
-        .stack {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-
-            margin: 100px auto 0px;
-            padding: 26px 25px;
-            background-color: #FEFEFE29;
-            border-radius: 27px;
-
-            max-width: 410px;
-
-            .row {
-
+    
+        .benechat__two {
+            width: 40%;
+            background-color: #888D9EB5;
+    
+            .description {
+    
+                max-width: 500px;
+                margin-left: 85px;
+    
+                &__title {
+                    color: #D9E6F5;
+                    font-size: 48px;
+                    
+                    margin-top: 198px;
+                }
+    
+                &__description {
+                    margin-top: 30px;
+                }
+            }
+    
+    
+            .stack {
                 display: flex;
-                justify-content: space-around;
-                align-items: flex-end;
-
-                .item {
+                justify-content: center;
+                flex-direction: column;
+    
+                margin: 100px auto 0px;
+                padding: 26px 25px;
+                background-color: #FEFEFE29;
+                border-radius: 27px;
+    
+                max-width: 410px;
+    
+                .row {
+    
                     display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    padding: 6px;
-
-                    h4 {
-                        font-size: 13px;
-                        color: #464D63;
-                        text-align: center;
-                        font-weight: 600;
-
-                        font-family: "Kadwa", serif;
+                    justify-content: space-around;
+                    align-items: flex-end;
+    
+                    .item {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding: 6px;
+    
+                        h4 {
+                            font-size: 13px;
+                            color: #464D63;
+                            text-align: center;
+                            font-weight: 600;
+    
+                            font-family: "Kadwa", serif;
+                        }
                     }
                 }
+    
+                .withTwo {
+                    justify-content: center;
+                    gap: 50px;
+                }
             }
-
-            .withTwo {
+    
+            .btn_section {
+                margin-top: 86px;
+                display: flex;
                 justify-content: center;
-                gap: 50px;
+    
+                &__button {
+    
+                    padding: 20px 30px;
+                    background-color: #494D5A;
+                    border-radius: 30px;
+                }
+    
+                margin-bottom: 89px;
             }
+    
+    
         }
-
-        .btn_section {
-            margin-top: 86px;
-            display: flex;
-            justify-content: center;
-
-            &__button {
-
-                padding: 20px 30px;
-                background-color: #494D5A;
-                border-radius: 30px;
-            }
-
-            margin-bottom: 89px;
-        }
-
-
     }
 }
 
