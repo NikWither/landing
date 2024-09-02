@@ -1,0 +1,71 @@
+body {
+    font-family: 'Unbounded';
+    color: #F1F1F1;
+}
+
+.benechat {
+
+}
+
+/* .benechat__container {
+    width: 100%;
+    display: flex;
+
+}
+
+.benechat__one {
+    width: 60%;
+    background-color: #7FACE1;
+}
+
+.benechat__one h3 {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.benechat__two {
+    background-color: #888D9EB5;
+    width: 40%;
+}
+
+.benechat__two h2 {
+    color: #D9E6F5;
+    font-size: 48px;
+    
+    margin-top: 198px;
+    margin-left: 85px;
+}
+
+.benechat__two p {
+    font-size: 20px;
+    font-weight: 600;
+
+    margin-top: 10px;
+    margin-left: 85px;
+}
+
+
+.image__section {
+    position: relative;
+}
+
+.benechat__image_1 {
+    margin: 150px 0px;
+    z-index: 10;
+    display: block;
+    position: relative;
+    left: 25%;
+}
+
+.benechat__image_2 {
+    z-index: 100;
+    position: absolute;
+    top: 0px;
+
+}
+
+.benechat__image_3 {
+    z-index: 0;
+    position: absolute;
+} */

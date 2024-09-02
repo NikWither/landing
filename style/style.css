@@ -1,0 +1,168 @@
+@charset "UTF-8";
+body {
+  font-family: "Unbounded";
+  color: #F1F1F1;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24.8px;
+}
+
+.benechat {
+  display: flex;
+}
+.benechat .container {
+  width: 100%;
+  display: flex;
+}
+.benechat__one {
+  width: 60%;
+  background-color: #7FACE1;
+}
+.benechat__one .images_section {
+  margin-top: 282px;
+  margin-left: 42px;
+}
+.benechat__one .images_section .group {
+  position: relative;
+}
+.benechat__one .images_section__tickets {
+  margin-top: 198px;
+  margin-left: 123px;
+  position: relative;
+  width: 510px;
+  height: 356px;
+}
+.benechat__one .images_section__tickets .image_1 {
+  width: 100%; /* Картинка будет масштабироваться по ширине контейнера */
+  height: 100%; /* Картинка будет масштабироваться по высоте контейнера */
+}
+.benechat__one .images_section__tickets .group {
+  position: absolute;
+  top: 116px;
+  right: 123px;
+}
+.benechat__one h2 {
+  margin-top: 109px;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 600;
+  color: #F1F1F1;
+}
+.benechat__two {
+  width: 40%;
+  background-color: rgba(136, 141, 158, 0.7098039216);
+}
+.benechat__two .description {
+  max-width: 500px;
+  margin-left: 85px;
+}
+.benechat__two .description__title {
+  color: #D9E6F5;
+  font-size: 48px;
+  margin-top: 198px;
+}
+.benechat__two .description__description {
+  margin-top: 30px;
+}
+.benechat__two .stack {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 100px auto 0px;
+  padding: 26px 25px;
+  background-color: rgba(254, 254, 254, 0.1607843137);
+  border-radius: 27px;
+  max-width: 410px;
+}
+.benechat__two .stack .row {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.benechat__two .stack .row .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px;
+}
+.benechat__two .stack .row .item h4 {
+  font-size: 13px;
+  color: #464D63;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Kadwa", serif;
+}
+.benechat__two .stack .withTwo {
+  justify-content: center;
+  gap: 50px;
+}
+.benechat__two .btn_section {
+  margin-top: 86px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 89px;
+}
+.benechat__two .btn_section__button {
+  padding: 20px 30px;
+  background-color: #494D5A;
+  border-radius: 30px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  background-color: #7FACE1;
+}
+.contact .rectangle {
+  margin-top: 60px;
+  background-color: #494D5A;
+  width: 1200px;
+  padding: 23px;
+  margin-bottom: 81px;
+}
+.contact .rectangle__title {
+  text-align: center;
+  margin-top: 236px;
+  font-size: 120px;
+  font-weight: 400;
+}
+.contact .rectangle .form {
+  margin-top: 174px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer {
+  background-color: #494D5A;
+  padding: 1px;
+}
+.footer .keyboard {
+  margin-top: 143px;
+  text-align: center;
+}
+.footer .keyboard__keyaboards {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 22px;
+       column-gap: 22px;
+}
+.footer .keyboard__text {
+  font-family: "Kameron";
+  margin-top: 14px;
+  font-size: 40px;
+  font-weight: 400;
+}
+.footer .contacts {
+  margin-top: 53px;
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 140px;
+       column-gap: 140px;
+  margin-bottom: 56px;
+}
+.footer .contacts__item {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}/*# sourceMappingURL=style.css.map */

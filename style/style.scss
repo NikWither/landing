@@ -1,0 +1,220 @@
+body {
+    font-family: 'Unbounded';
+    color: #F1F1F1;
+
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24.8px;
+}
+
+.benechat {
+
+    display: flex;
+
+    .container {
+        width: 100%;
+        display: flex;
+    }
+
+    &__one {
+        width: 60%;
+        background-color: #7FACE1;
+        
+        .images_section {
+            margin-top: 282px;
+            margin-left: 42px;
+
+            .image_1 {
+
+            }
+
+            .group {
+                position: relative;
+            }
+        }
+
+        .images_section__tickets {
+            margin-top: 198px;
+            margin-left: 123px;
+            position: relative;
+
+            width: 510px;
+            height: 356px;
+
+            .image_1 {
+                width: 100%; /* Картинка будет масштабироваться по ширине контейнера */
+                height: 100%; /* Картинка будет масштабироваться по высоте контейнера */
+            }
+
+            .group {
+                position: absolute;
+                top: 116px;
+                right: 123px;
+
+                img {
+                }
+            }
+        }
+
+        h2 {
+            margin-top: 109px;
+            
+            text-align: center;
+            font-size: 64px;
+            font-weight: 600;
+            color: #F1F1F1;
+        }
+    }
+
+    &__two {
+        width: 40%;
+        background-color: #888D9EB5;
+
+        .description {
+
+            max-width: 500px;
+            margin-left: 85px;
+
+            &__title {
+                color: #D9E6F5;
+                font-size: 48px;
+                
+                margin-top: 198px;
+            }
+
+            &__description {
+                margin-top: 30px;
+            }
+        }
+
+
+        .stack {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            margin: 100px auto 0px;
+            padding: 26px 25px;
+            background-color: #FEFEFE29;
+            border-radius: 27px;
+
+            max-width: 410px;
+
+            .row {
+
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-end;
+
+                .item {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 6px;
+
+                    h4 {
+                        font-size: 13px;
+                        color: #464D63;
+                        text-align: center;
+                        font-weight: 600;
+
+                        font-family: "Kadwa", serif;
+                    }
+                }
+            }
+
+            .withTwo {
+                justify-content: center;
+                gap: 50px;
+            }
+        }
+
+        .btn_section {
+            margin-top: 86px;
+            display: flex;
+            justify-content: center;
+
+            &__button {
+
+                padding: 20px 30px;
+                background-color: #494D5A;
+                border-radius: 30px;
+            }
+
+            margin-bottom: 89px;
+        }
+
+
+    }
+}
+
+.contact {
+
+
+    display: flex;
+    justify-content: center;
+    background-color: #7FACE1;
+
+    .rectangle {
+        margin-top: 60px;
+        background-color: #494D5A;
+        width: 1200px;
+        padding: 23px;
+        margin-bottom: 81px;
+
+        &__title {
+            text-align: center;
+            margin-top: 236px;
+
+            font-size: 120px;
+            font-weight: 400;
+        }
+
+        .form {
+            margin-top: 174px;
+            
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}
+
+.footer {
+    background-color: #494D5A;
+    padding: 1px;
+
+    .keyboard {
+        margin-top: 143px;
+        &__keyaboards {
+
+            display: flex;
+            justify-content: center;
+            column-gap: 22px;
+        }
+
+        text-align: center;
+
+        &__text {
+            font-family: 'Kameron';
+            margin-top: 14px;
+            font-size: 40px;
+            font-weight: 400;
+        }
+    }
+
+    .contacts {
+        margin-top: 53px;
+
+        display: flex;
+        justify-content: center;
+        column-gap: 140px;
+        
+        &__item {
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+        }
+
+        margin-bottom: 56px;
+    }
+}
